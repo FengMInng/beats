@@ -71,6 +71,7 @@ var cloudMetaProviders = map[string]provider{
 	"tencent":       qcloudMetadataFetcher,
 	"huawei":        openstackNovaMetadataFetcher,
 	"hetzner":       hetznerMetadataFetcher,
+	"ucloud":        ucloudMetadataFetcher,
 }
 
 // priorityProviders contains providers which has priority over others.
